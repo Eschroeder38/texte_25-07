@@ -1,0 +1,58 @@
+body{
+    background-color: black;/* cor do plano de fundo*/
+    background-image: linear-gradient(black, rgb(246, 5, 5));
+    color: aqua;/* cor da fonte - texto*/
+
+
+    h1{
+        color: red;/* cor do título principal*/
+        text-shadow: rgb(255, 119, 0) 1px 1px;
+        font-family:'Times New Roman', Times, serif ;
+        text-align: center; /* alinhamento do texto*/
+        font-size: 2.5rem; /* tamanho da fonte adaptado à tela*/
+    }
+
+    img{
+        width: 70%; /* largura da imagem 70% da tela*/
+        display: flex; /* flexibiliza a seção*/
+        margin: auto; /* centraliza a imagem dispondo as margens automaticamente*/
+        border-radius: 200px; /* deixa a imagem circular*/
+    }
+    /*configurar texto*/
+    p{
+        color: antiquewhite;/* configurando a cor do texto*/
+        text-align: center;/* alinha o texto*/
+        font-size: 1.5rem; /* tamanho da fonte adaptado à tela*/
+
+    }
+    /* configurar subtítulos*/
+    h2{
+    text-align: center;/*configura a cor do subtítulo*/
+    color: black;/* configura a cor da fonte*/
+    text-shadow: orange 1px 1px; 
+    font-size: 1.5rem; /*tamanho da fonte adaptado à tela*/
+    }
+
+    ul{
+        color: black; /*configura a cor da lista*/
+        text-align: justify; /*configura o alinhamento do texto*/
+        margin:auto;
+        width: 30%;
+        font-size: 1.5rem; /*tamanho da fonte adaptado à tela*/
+        }
+        p{
+            color: blue;
+            text-align: justify;
+            margin: auto;
+            width: 85%;
+            font-size: 1.5rem;
+        }
+
+    .titulo_final{
+        text-align: left;
+    }
+
+    .texto {
+        text-align: left;
+        width: 100%;
+    }
