@@ -1,13 +1,13 @@
 body{
     background-color: black;/* cor do plano de fundo*/
     background-image: linear-gradient(black, rgb(246, 5, 5));
-    color: aqua;/* cor da fonte - texto*/
+    color: black;/* cor da fonte - texto*/
 
 
     h1{
         color: red;/* cor do título principal*/
-        text-shadow: rgb(255, 119, 0) 1px 1px;
-        font-family:'Times New Roman', Times, serif ;
+        text-shadow: rgb(255, 119, 0) 1.5px 1.5px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
         text-align: center; /* alinhamento do texto*/
         font-size: 2.5rem; /* tamanho da fonte adaptado à tela*/
     }
@@ -55,4 +55,30 @@ body{
     .texto {
         text-align: left;
         width: 100%;
+    }
+    .menu{
+        list-style:none;
+        display:flex;
+        color:#eeba30;
+        align-items: center;
+        justify-content: space-between;
+        width: 30%;
+    }
+
+    a{
+        color:#eeba30;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover{
+        color:blue
+    }
+    .video{
+        display:flex;
+        overflow-x: auto;
+        gap: 10px;
+        margin: auto;
+    
+
     }
